@@ -12,8 +12,9 @@ cd docker-cellprofiler
 sudo docker build -t "cellprofiler" .
 
 # 2. Test
+# Start a container from image "cellprofiler" and run command "cellprofiler -help" inside the container.
 sudo docker run cellprofiler cellprofiler -help
 
-# 3. Start container with local input, output and pipeline directories mapped as volumes, start a pipeline.
+# 3. Start a container so that it sees local directories, run a pipeline.
 sudo ./cp-docker-wrap.sh input_dir output_dir pipeline_dir pipeline.cp
 ```
