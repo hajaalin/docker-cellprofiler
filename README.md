@@ -1,7 +1,7 @@
 docker-cellprofiler
 ===================
 
-Centos 6.4 with CellProfiler.
+Centos 6.4 with CellProfiler from the official repository. See [http://cellprofiler.org/linux.shtml].
 
 ```
 # 0. Install Docker
@@ -15,5 +15,5 @@ sudo docker build -t "cellprofiler" .
 sudo docker run cellprofiler cellprofiler -help
 
 # 3. Start container with local input, output and pipeline directories mapped as volumes, start a pipeline.
-sudo ./cp-docker-wrap input_dir output_dir pipeline_dir pipeline.cp
+sudo ./cp-docker-wrap.sh input_dir output_dir pipeline_dir pipeline.cp
 ```
