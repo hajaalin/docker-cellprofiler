@@ -1,7 +1,7 @@
 docker-cellprofiler
 ===================
 
-Centos 6.4 with CellProfiler from the official repository. See [http://cellprofiler.org/linux.shtml].
+Centos 6.4 with CellProfiler from the official repository. See http://cellprofiler.org/linux.shtml.
 
 ```
 # 0. Install Docker
