@@ -4,7 +4,7 @@ docker-cellprofiler
 Centos 6.4 with CellProfiler from the official repository. See http://cellprofiler.org/linux.shtml.
 
 ```
-# 0. Install Docker
+# 0. Install Docker. See https://www.docker.io/gettingstarted
 
 # 1. Download and build docker-cellprofiler
 git clone https://github.com/hajaalin/docker-cellprofiler.git
