@@ -1,4 +1,4 @@
-FROM centos:6
+FROM centos:centos6
 
 MAINTAINER Harri Jäälinoja harri.jaalinoja@helsinki.fi
 
